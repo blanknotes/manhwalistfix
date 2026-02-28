@@ -70,21 +70,21 @@ export function Navbar() {
             Manhwa<span className="text-primary">List</span>
           </Link>
           
-          <nav className="hidden lg:flex items-center gap-8">
-            <Link href="/ranking" className="text-sm font-black flex items-center gap-2 hover:text-primary transition-colors">
-              <Trophy className="w-4 h-4" />
+          <nav className="flex items-center flex-wrap gap-x-4 gap-y-2 lg:gap-8 min-w-0">
+            <Link href="/ranking" className="text-[12px] md:text-sm font-black flex items-center gap-1.5 hover:text-primary transition-colors shrink-0">
+              <Trophy className="w-3.5 h-3.5 md:w-4 h-4" />
               Ranking
             </Link>
-            <Link href="/genres" className="text-sm font-black flex items-center gap-2 hover:text-primary transition-colors">
-              <LayoutGrid className="w-4 h-4" />
+            <Link href="/genres" className="text-[12px] md:text-sm font-black flex items-center gap-1.5 hover:text-primary transition-colors shrink-0">
+              <LayoutGrid className="w-3.5 h-3.5 md:w-4 h-4" />
               Genres
             </Link>
-            <Link href="/forums" className="text-sm font-black flex items-center gap-2 hover:text-primary transition-colors">
-              <MessageSquare className="w-4 h-4" />
+            <Link href="/forums" className="text-[12px] md:text-sm font-black flex items-center gap-1.5 hover:text-primary transition-colors shrink-0">
+              <MessageSquare className="w-3.5 h-3.5 md:w-4 h-4" />
               Forums
             </Link>
-            <Link href="/recommendations" className="text-sm font-black flex items-center gap-2 hover:text-primary transition-colors">
-              <Sparkles className="w-4 h-4" />
+            <Link href="/recommendations" className="text-[12px] md:text-sm font-black flex items-center gap-1.5 hover:text-primary transition-colors shrink-0">
+              <Sparkles className="w-3.5 h-3.5 md:w-4 h-4" />
               AI Recs
             </Link>
           </nav>
